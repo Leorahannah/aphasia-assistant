@@ -109,4 +109,4 @@ This output is generated in the user's tone based on writing samples they've pro
 
 Leora Klee  
 Computer Science @ McGill University  
-With support from McGill’s Accessible Computing Technologies Research Group
+With support from Professor Karyn Moffatt and McGill’s Accessible Computing Technologies Research Group
