@@ -1,0 +1,82 @@
+.App {
+  font-family: sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.role-toggle {
+  font-size: 0.9rem;
+}
+
+.chat-box {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  height: 400px;
+  overflow-y: scroll;
+  margin-top: 1rem;
+  background: #fdfdfd;
+  border-radius: 10px;
+}
+
+.message {
+  padding: 0.6rem 1rem;
+  border-radius: 18px;
+  margin: 0.5rem 0;
+  max-width: 80%;
+  word-wrap: break-word;
+}
+
+.message.left {
+  background-color: #e0e0e0;
+  align-self: flex-start;
+}
+
+.message.right {
+  background-color: #cce5ff;
+  align-self: flex-end;
+  margin-left: auto;
+}
+
+.input-bar {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.input-bar input {
+  flex: 1;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.input-bar button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+.suggestions {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background: #f0f8ff;
+  border: 1px solid #aad;
+  border-radius: 10px;
+}
+
+.suggestions button {
+  display: block;
+  width: 100%;
+  margin: 0.3rem 0;
+  padding: 0.5rem;
+  text-align: left;
+  background: #e6f0ff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}

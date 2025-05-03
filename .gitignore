@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# Node
+node_modules/
+build/
+
+# Local data & secrets
+chroma_store/
+leora_embeddings.npy
+leora_texts.json
+.env
+
+# VS Code settings
+.vscode/
