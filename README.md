@@ -1,4 +1,4 @@
-# 🧠 Aphasia Sentence Completion Assistant
+# Aphasia Sentence Completion Assistant
 
 This project is a personalized sentence generation system designed to support individuals with aphasia who struggle to form complete sentences. By combining Retrieval-Augmented Generation (RAG), OpenAI’s API, and a custom vector database built from a user’s past writing, the assistant helps approximate what someone might have meant when they enter just a few keywords. The goal is to bridge gaps in communication while preserving the user's voice and intent.
 
@@ -8,15 +8,15 @@ This project was developed as part of ongoing research into accessible computing
 
 ## ✨ Key Features
 
-- 🔤 **Keyword-based input** → full, natural-sounding sentence output
-- 🧠\ **Personal tone & style** through embedded writing samples
-- ⚡ Fast completions powered by OpenAI + ChromaDB
-- 💬 Web-based frontend for user-friendly interaction
-- ♿ Built with accessibility and real-world use cases in mind
+- **Keyword-based input** → full, natural-sounding sentence output
+- \ **Personal tone & style** through embedded writing samples
+- Fast completions powered by OpenAI + ChromaDB
+- Web-based frontend for user-friendly interaction
+- Built with accessibility and real-world use cases in mind
 
 ---
 
-## 🧩 Project Structure
+## Project Structure
 
 ```
 aphasia-assistant/
@@ -30,9 +30,9 @@ aphasia-assistant/
 
 ---
 
-## 🚀 Setup Instructions
+## Setup Instructions
 
-### 🔧 1. Backend (Flask + OpenAI)
+### 1. Backend (Flask + OpenAI)
 
 Install dependencies and run the server:
 
@@ -49,7 +49,7 @@ export OPENAI_API_KEY=your-key-here
 
 ---
 
-### 💻 2. Frontend (React)
+### 2. Frontend (React)
 
 Navigate to the React app and run it:
 
@@ -63,7 +63,7 @@ It’ll run at http://localhost:3000.
 
 ---
 
-## 💬 Example
+## Example
 
 **Input keywords:**
 ```
@@ -78,7 +78,7 @@ This output is generated in the user's tone based on writing samples they've pro
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 1. The user enters a few keywords
 2. The backend retrieves the most semantically similar past writing samples from the vector DB
@@ -87,7 +87,7 @@ This output is generated in the user's tone based on writing samples they've pro
 
 ---
 
-## 🔐 Privacy & Personalization
+## Privacy & Personalization
 
 - All completions are generated *only* using the user’s own writing samples (locally stored)
 - No writing data is uploaded or included in this public repository
@@ -96,7 +96,7 @@ This output is generated in the user's tone based on writing samples they've pro
 
 ---
 
-## 🔮 Future Work
+## Future Work
 
 - Live editing or correction of completions in real-time
 - Integration with mobile keyboard interfaces (iMessage, WhatsApp)
